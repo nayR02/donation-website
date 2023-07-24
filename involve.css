@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+:root {
+    --nav-font: 'Barlow Condensed', sans-serif;
+    --content-font-plex: 'IBM Plex Serif', sans-serif;
+    --content-font-rubik: 'Rubik', sans-serif;
+    --content-font-poppins: 'Poppins', sans-serif;
+    --brown-color1: #eac29a;
+    --brown-color2: #ddb893;
+    --brown-color3: #d8ab7d;
+    --brown-color4: #bf8f5e;
+    --brown-color5: #a37854;
+    --dark1: #75614d;
+    --dark2: #5d4d3d;
+    --dark3: #463a2e;
+    --blue-1: #28649c;
+    --blue-2: #173959;
+    --blue-3: #112b42;
+    --footer: #88bceb;
+    --gradient-shade1: rgba(128, 126, 16, 0.473);
+    --gradient-shade2: rgba(240, 220, 106, 0.5); 
+    --gradient-shade3: rgba(113, 200, 235, 0.418);
+    --gradient-shade4: rgba(113, 151, 233, 0.555);
+    --alpha: rgba(0, 0, 0, 0.5);
+    --alpha2: rgba(0, 0, 0, 0.8);
+}

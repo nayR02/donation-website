@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+:root {
+    --nav-font: 'Barlow Condensed', sans-serif;
+    --content-font-plex: 'IBM Plex Serif', sans-serif;
+    --content-font-rubik: 'Rubik', sans-serif;
+    --content-font-poppins: 'Poppins', sans-serif;
+    --brown-color1: #eac29a;
+    --brown-color2: #ddb893;
+    --brown-color3: #d8ab7d;
+    --brown-color4: #bf8f5e;
+    --brown-color5: #a37854;
+    --dark1: #75614d;
+    --dark2: #5d4d3d;
+    --dark3: #463a2e;
+    --blue-1: #28649c;
+    --blue-2: #173959;
+    --blue-3: #112b42;
+    --footer: #88bceb;
+    --gradient-shade1: rgba(128, 126, 16, 0.473);
+    --gradient-shade2: rgba(240, 220, 106, 0.5); 
+    --gradient-shade3: rgba(113, 200, 235, 0.418);
+    --gradient-shade4: rgba(113, 151, 233, 0.555);
+    --alpha: rgba(0, 0, 0, 0.5);
+    --alpha2: rgba(0, 0, 0, 0.8);
+}
+body {
+    background-color: var(--dark1);
+    /* background-image: linear-gradient(
+        var(--gradient-shade1),
+        var(--gradient-shade2)),
+        url(/images/donatebg.jpg); */
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    font-family: var(--content-font-rubik);
+}
+
+#donate-text{
+    text-decoration: none;
+    color: var(--brown-color5);
+    font-family: var(--content-font-poppins);
+    font-weight: 600;
+}
+
+#donate-form {
+    background-color: wheat;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    border-top-left-radius: 20px;
+    /* background: linear-gradient(
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.4)
+    ); */
+    
+}
+#donate-form .border-control {
+    color: #000;
+    background: transparent;
+    font-weight: 600;
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1px solid black;
+}
+
+#donate-form input::placeholder {
+    color: var(--brown-color5);
+}
+
+#donate-form span {
+    background: transparent;
+    color: var(--brown-color5);
+    border: none;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    border-radius: 0%;
+}
+.icons {
+    width: 20px;
+}
+#donate-form textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0%;
+}
+section .row select {
+    background: transparent;
+    border: none;
+    border-radius: 0%;
+    border-bottom: 1px solid #000;
+}
+section .row .options {
+    background-color: var(--brown-color5);
+}
+
+.same-border {
+    border: none;
+    border-bottom: 1px solid #000;
+    border-right: 1px solid #000;
+    border-radius: 0%;
+}
+#donate-form {
+    margin-bottom: 30px;
+}
+.radio-inp {
+    background-color: var(--dark1);
+}
+.radio label {
+    font-family: var(--content-font-rubik);
+    font-weight: 400;
+    color: var(--brown-color5);
+}
+.lead {
+    font-weight: 400;
+    color: var(--brown-color5);
+}
+.radio {
+    margin: 20px 0 25px;
+    padding-left: 2%;
+}
+.button {
+    margin: 6% 0 0;
+    padding: 2% 6%;
+    border: 1px outset #000;
+    border-radius: 10px;
+    background-color: var(--brown-color3);
+    font-family: var(--content-font-poppins);
+    font-weight: 500;
+    opacity: 0.9;
+}
+.button:hover {
+    background-color: var(--brown-color5);
+    color: wheat;
+    transition: 0.5s ease-in-out;
+    box-shadow: 5px 5px 10px var(--brown-color5);
+}
+
+.cards p {
+    text-align: center;
+    color: #fff;
+    font-family: var(--content-font-poppins);
+}
+.cards p a {
+    text-decoration: none;
+    color: inherit;
+}
+.card-indiv {
+    background-color: rgba(0, 0, 0, 0.342);
+    border: none;
+    border-radius: 0%;
+    border-top-left-radius: 20px;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    padding: 3% 2%;
+    transition: 0.3s ease;
+}
+.main-card-section .card-3 {
+    border: none;
+    border-radius: 0%;
+    background-image: linear-gradient(
+        var(--gradient-shade1),
+        var(--gradient-shade2)),
+        url(images/card3bg.jpg);
+    width: 100%;
+    border-bottom: 2px solid #000;
+    border-right: 2px solid #000;
+    border-top-left-radius: 20px;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+    color: #fff;
+    font-family: var(--content-font-plex);
+}
+.card-3 h5, p {
+    text-shadow: 2px 2px 3px #000;
+}
+
+.c3-button {
+    background: none;
+    backdrop-filter: blur(5px);
+    /* background-color: transparent; */
+    border: none;
+    border: 1px solid var(--brown-color5);
+    color: #000;
+    transition: 0.5s ease;
+}
+.c3-button:hover {
+    background-color: var(--alpha);
+}
+.card-indiv:hover {
+    background-color: var(--alpha);
+}
+.card-indiv p:hover {
+    color: gray;
+    transition: 0.3s ease;
+}
+.main #donate-form #bottom-text {
+    text-shadow: none;
+    font-size: smaller;
+    opacity: 0.7;
+}
+.main #donate-form #bottom-text .text {
+    color: var(--blue-1);
+}
+.main #donate-form #bottom-text .text:hover {
+    filter: brightness(200%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+/* footer */
+#footer {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--brown-color4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2% 10% 1%;
+}
+#footer ul li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+#footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 2px 2px 10px var(--footer);
+}
+
+#footer img {
+    width: 20px;
+}
+
+#footer ul .li-logo {
+    display: inline-block;
+    margin: 5px 5px;
+    transition: 0.5s ease-in-out;
+}
+#footer ul .li-content:hover {
+    filter: brightness(250%);
+}
+#footer ul .li-logo:hover {
+    filter: brightness(150%);
+    transform: translateY(-10px);
+}
